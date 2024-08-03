@@ -18,9 +18,9 @@ math_utils = "0.1.0"
 ```
 ## Usage 🛠️
 Here's a quick example to get you started:
-use math_utils::{factorial, gcd, prime};
 
 ```
+use math_utils::{factorial, gcd, prime};
 fn main() {
     let fact_result = factorial::factorial(5);
     println!("Factorial of 5 is: {}", fact_result);
